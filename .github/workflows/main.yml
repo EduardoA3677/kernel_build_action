@@ -27,16 +27,16 @@ jobs:
     - name: Build Kernel
       uses: ./
       with:
-          kernel-url: https://github.com/AcmeUI-Devices/android_kernel_xiaomi_cas
-          kernel-dir: msm-4.19
-          kernel-branch: taffy
-          config: cas_defconfig
+          kernel-url: https://github.com/EduardoA3677/RadioactiveKernel_Pantah
+          kernel-dir: gs201
+          kernel-branch: A15-stable
+          config: radioactive_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
-          ksu: true
+          ksu: false
           ksu-version: main
-          android-version: 12
-          aosp-clang-version: r383902
-          disable-lto: true
+          android-version: 15
+          aosp-clang-version: r522817
+          disable-lto: false
           anykernel3: true

@@ -27,7 +27,7 @@ jobs:
     - name: Build Kernel
       uses: ./
       with:
-          kernel-url: https://github.com/EduardoA3677/RadioactiveKernel_Pantah
+          kernel-url: https://github.com/acuicultor/RadioactiveKernel_Pantah.git
           kernel-dir: gs201
           kernel-branch: A15-stable
           config: radioactive_defconfig

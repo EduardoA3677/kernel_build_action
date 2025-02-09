@@ -32,17 +32,12 @@ jobs:
           kernel-branch: A15-stable
           config: radioactive_defconfig
           arch: arm64
-          aosp-gcc: false
-          aosp-clang: false
+          aosp-gcc: true
+          aosp-clang: true
           ksu: false
           ksu-version: main
-          android-version: 13
+          android-version: ""
           aosp-clang-version: r450784d
-          other-clang-url: https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/android14-dev/clang-r487747c.tar.gz
-          other-gcc64-url: https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9.git
-          other-gcc32-url: https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9.git
-          other-gcc64-branch: lineage-19.1
-          other-gcc32-branch: lineage-19.1
           disable-lto: false
           anykernel3: true
           release: true

@@ -40,8 +40,6 @@ jobs:
           aosp-clang-version: r450784d
           other-gcc64-url: https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/+archive/961622e926a1b21382dba4dd9fe0e5fb3ee5ab7c.tar.gz
           other-gcc32-url: https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/+archive/cb7b3ac1b7fdb49474ff68761909934d1142f594.tar.gz
-          other-gcc64-branch: android-13.0.0_r0.52
-          other-gcc32-branch: android-13.0.0_r0.52
           disable-lto: false
           anykernel3: true
           release: true

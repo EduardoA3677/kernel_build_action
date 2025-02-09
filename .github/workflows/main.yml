@@ -37,7 +37,8 @@ jobs:
           ksu: false
           ksu-version: main
           android-version: ""
-          aosp-clang-version: r450784d
+          aosp-clang-version: r530567
+          ccache: false
           disable-lto: false
           anykernel3: true
           release: true

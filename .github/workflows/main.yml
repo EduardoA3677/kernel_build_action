@@ -32,7 +32,7 @@ jobs:
           kernel-branch: A15-stable
           config: radioactive_defconfig
           arch: arm64
-          aosp-gcc: true
+          aosp-gcc: false
           aosp-clang: true
           ksu: false
           ksu-version: main

@@ -32,11 +32,12 @@ jobs:
           kernel-branch: A15-stable
           config: radioactive_defconfig
           arch: arm64
-          aosp-gcc: true
-          aosp-clang: true
+          aosp-gcc: false
+          aosp-clang: false
           ksu: false
           ksu-version: main
           android-version: 12
-          aosp-clang-version: r383902
+          aosp-clang-version: r522817
           disable-lto: false
           anykernel3: true
+          release: true

@@ -33,7 +33,7 @@ jobs:
           config: gs201_defconfig
           arch: arm64
           aosp-gcc: true
-          aosp-clang: true
+          aosp-clang: false
           ksu: false
           ksu-version: main
           android-version: ""

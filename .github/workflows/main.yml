@@ -42,5 +42,5 @@ jobs:
           disable-lto: false
           anykernel3: true
           nethunter: true
-          nethunter-patch: true
-          anykernel3-url: https://github.com/EduardoA3677/AnyKernel3
+          nethunter-patch: false
+          anykernel3-url: https://github.com/EduardoA3677/AnyKernel3.git

@@ -38,7 +38,7 @@ jobs:
           ksu-version: main
           android-version: ""
           aosp-clang-version: r530567
-          ccache: true
+          ccache: false
           disable-lto: false
           anykernel3: true
           anykernel3-url: https://github.com/EduardoA3677/AnyKernel3.git

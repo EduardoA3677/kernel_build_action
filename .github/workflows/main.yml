@@ -27,18 +27,23 @@ jobs:
     - name: Build Kernel
       uses: ./
       with:
-          kernel-url: https://github.com/EduardoA3677/RadioactiveKernel_Pantah.git
+          kernel-url: https://github.com/kerneltoast/android_kernel_google_gs201
           kernel-dir: gs201
-          kernel-branch: A15-stable
-          config: radioactive_defconfig
+          kernel-branch: 15.0.0-sultan
+          config: gs201_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
-          ksu: false
+          ksu: true
+          ksu-other: true
+          ksu-url: https://github.com/rifsxd/KernelSU-Next
+          ksu-lkm: true
           ksu-version: main
           android-version: ""
           aosp-clang-version: r530567
-          ccache: false
+          ccache: true
           disable-lto: false
           anykernel3: true
-          release: true
+          nethunter: true
+          nethunter-patch: true
+          anykernel3-url: https://github.com/EduardoA3677/AnyKernel3

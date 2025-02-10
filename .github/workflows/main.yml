@@ -38,7 +38,7 @@ jobs:
           ksu-other: true
           ksu-url: https://github.com/rifsxd/KernelSU-Next
           ksu-lkm: true
-          ksu-version: main
+          ksu-version: next
           android-version: ""
           aosp-clang-version: r530567
           ccache: true
